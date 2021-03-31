@@ -1,4 +1,38 @@
-/* GLOBAL STYLES */
-html {
-    
+/* BODY STYLES */
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+/* NAVBAR STYLES */
+.navbar-links {
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: row;
+    line-height: 2em;
+
+}
+
+
+/* LOGO STYLES */
+.corporate-logo {
+    /* text-align: center; */
+    align-items: center; 
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    margin-top: 198px;
+}
+
+/* SEARCH FORM STYLES */
+.search-container {
+    background-color: lightgreen;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;        
+}
+
+.search-container > form {
+    text-align: center;
 }
