@@ -6,12 +6,42 @@ body {
 }
 
 /* NAVBAR STYLES */
-.navbar-links {
-    background-color: lightsteelblue;
-    display: flex;
-    flex-direction: row;
-    line-height: 2em;
+.navbar {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    height: 30px;
+    
+    
+    
+}
+.navbar-links-aboutstore {  
+    /* background-color: lightsteelblue; */ 
+}
+.navbar-links-aboutstore a {
+    padding: 0 5px
+}
 
+.navbar-links-gmailimages {
+    /* background-color: lightsalmon; */
+    justify-self: right; 
+}
+.navbar-links-gmailimages a {
+    padding: 0 0 0 5px;
+}
+.navbar-links-gmailimages img {
+    place-self:
+    padding: 5px;
+}
+
+.navbar-links-gmailimages > button {
+    color: #fff;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    font-size: 15px;
+    margin: 0 1em ;
+    padding: 9px 23px;
 }
 
 
@@ -19,7 +49,7 @@ body {
 .corporate-logo {
     /* text-align: center; */
     align-items: center; 
-    background-color: lightgray;
+    /* background-color: lightgray; */
     display: flex;
     flex-direction: column;
     margin-top: 198px;
@@ -27,7 +57,7 @@ body {
 
 /* SEARCH FORM STYLES */
 .search-container {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     box-sizing: border-box;
     display: block;
     padding: 20px;        
