@@ -3,6 +3,9 @@ body {
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #222;
+    height: 100%;
+    position: relative;
+    width: 100%;
 }
 
 /* NAVBAR STYLES */
@@ -11,15 +14,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 6fr;
     height: 30px;
-    
-    
-    
 }
 .navbar-links-aboutstore {  
     /* background-color: lightsteelblue; */ 
 }
 .navbar-links-aboutstore a {
-    padding: 0 5px
+    padding: 0 5px;
+    text-decoration: none;
 }
 
 .navbar-links-gmailimages {
@@ -28,6 +29,7 @@ body {
 }
 .navbar-links-gmailimages a {
     padding: 0 0 0 5px;
+    text-decoration: none;
 }
 .navbar-links-gmailimages img {
     place-self:
@@ -38,7 +40,7 @@ body {
     color: #fff;
     background-color: #1a73e8;
     border: 1px solid transparent;
-    border-radius: 10%;
+    border-radius: 7%;
     font-size: 15px;
     margin: 0 1em ;
     padding: 9px 23px;
@@ -65,4 +67,46 @@ body {
 
 .search-container > form {
     text-align: center;
+}
+.search-buttons {
+    display: block;
+    padding: 1em;;
+    text-align: center;
+    width: auto;
+}
+.search-buttons > button ~ button {
+    margin-left: 1em;
+}
+
+/* FOOTER STYLES */
+.footer-bar { 
+    align-items: center;
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;
+    
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    
+    /* height: 30px;     */
+    /* position: absolute; */
+    
+}
+.advert-business-how a {
+    color: black;
+    text-decoration: none;
+ 
+}
+.carbon-neutral-declaration {
+
+  
+   
+}
+
+.privacy-terms-setting a {
+    color: black;
+    text-decoration: none;
+   
 }
